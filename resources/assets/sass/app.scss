@@ -1,0 +1,93 @@
+@import "resources/assets/scss/lib/bourbon/_bourbon.scss";
+@import "resources/assets/scss/lib/neat/_neat.scss";
+
+$width: 100%;
+$height: 100%;
+$link-hover-color: #0055ff;
+$message-font-color: #e62e00;
+
+html {
+	width: $width;
+	height: $height;
+	
+	body {
+		width: $width;
+		height: $height;
+		background: url('/img/tech.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		background-size: cover;
+    	font-family: 'Lato';
+	}
+}
+
+.fa-btn {
+    margin-right: em(6);
+}
+
+.panel {
+	background-color: rgba(211,211,211,0.8) !important;
+
+	.panel-heading {
+		background-color: rgba(211,211,211,0.2) !important;
+	}
+
+	.panel-body {
+		background-color: rgba(255,255,255,0.3) !important;
+	}
+}
+
+.center-align {
+	text-align: center;
+	color: black;
+}
+
+.navbar-inverse {
+	background-color: rgba(0,0,0,0.7) !important;
+	color: white;
+
+	.navbar-nav > li > a {
+		color: white;
+	}
+}
+
+.maintenance {
+	display: inline-block;
+	width: 30%;
+}
+
+.post-link {
+	display: inline-block;
+	font-size: em(30);
+}
+
+.post-container {
+	margin-top: em(20);
+}
+
+.post-description, .copyright {
+	margin-top: em(5);
+	margin-bottom: em(5);
+}
+
+.outer-container {
+	@include outer-container(70%);
+	background-color: rgba(222,222,222,0.8);
+}
+
+.notif-trigger {
+	&:hover, &:visited, &:active, &:link {
+		text-decoration: none;	
+	}
+
+	&:hover {
+		color: $link-hover-color;
+	}
+
+}
+
+.message-body {
+	font-size: em(18);
+	color: $message-font-color;
+}

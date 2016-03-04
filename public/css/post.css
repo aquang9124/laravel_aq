@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  width: 100%;
+  height: 100%; }
+  html body {
+    width: 100%;
+    height: 100%;
+    background: url("/img/desk.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Lato'; }
+
+.fa-btn {
+  margin-right: 0.375em; }
+
+.panel {
+  background-color: rgba(211, 211, 211, 0.8) !important; }
+  .panel .panel-heading {
+    background-color: rgba(211, 211, 211, 0.2) !important; }
+  .panel .panel-body {
+    background-color: rgba(255, 255, 255, 0.3) !important; }
+
+.center-align {
+  text-align: center;
+  color: black; }
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: white; }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white; }
+
+.maintenance {
+  display: inline-block;
+  width: 30%; }
+
+.post-link {
+  display: inline-block;
+  font-size: 1.875em; }
+
+.post-container {
+  margin-top: 1.25em; }
+
+.outer-container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(222, 222, 222, 0.8) !important;
+  min-height: 85%; }
+  .outer-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .outer-container .row-wrapper {
+    display: block; }
+    .outer-container .row-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+.post-contents {
+  font-size: 1.125em;
+  color: black; }
+
+/*# sourceMappingURL=post.css.map */
