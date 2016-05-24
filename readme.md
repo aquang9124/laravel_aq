@@ -1,1 +1,1 @@
-A blog that I built while I was learning the Laravel framework. A fun challenge.
+A blog that I built while I was learning the Laravel framework. A fun challenge to try and build something using a framework I was unfamiliar with. I might go back and build out some features I didn't get the chance to create.
